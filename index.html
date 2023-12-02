@@ -1,44 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Little Lemon Sandwich Shop</title>
-    <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuesaDelight - Gourmet Quesadillas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="logo.jpeg" alt="Sample Photo" id="logo">
+        <img src="static_assets/logo.png" alt="QuesaDelight Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <section class="menu">
-            <h1>Our Awesome Menu</h1>
-            <article class="menu-item">
-                <h2>Classic Club Sandwich</h2>
-                <p>Turkey, bacon, lettuce, tomato, mayo.</p>
+        <section id="intro">
+            <h1>Welcome to QuesaDelight!</h1>
+            <p>Discover a world of gourmet quesadillas, crafted with fresh, locally-sourced ingredients and a fusion of flavors that will tantalize your taste buds.</p>
+        </section>
+
+        <section id="menu-highlights">
+            <h2>Menu Highlights</h2>
+        
+            <!-- Classic Cheese Quesadilla -->
+            <article>
+                <img src="static_assets/cheese_quesadilla.png" alt="Classic Cheese Quesadilla" style="width:20%;">
+                <h3>Classic Cheese Quesadilla</h3>
+                <p>A perfect blend of melted cheeses in a crispy tortilla.</p>
             </article>
-            <article class="menu-item">
-                <h2>Veggie Delight</h2>
-                <p>Grilled vegetables, hummus, feta cheese.</p>
+        
+            <!-- Chicken Fiesta Quesadilla -->
+            <article>
+                <img src="static_assets/fiesta_quesadilla.png" alt="Chicken Fiesta Quesadilla" style="width:20%;">
+                <h3>Chicken Fiesta Quesadilla</h3>
+                <p>Grilled chicken with peppers, onions, and cheese.</p>
             </article>
-            <article class="menu-item">
-                <h2>Chicken Pesto Panini <span>NEW</span></h2>
-                <p>Grilled chicken, pesto, mozzarella, tomatoes.</p>
-            </article>
-            <article class="menu-item">
-                <h2>Italian Meatball Sub</h2>
-                <p>Meatballs, marinara sauce, provolone cheese.</p>
-            </article>
-            <article class="menu-item">
-                <h2>BBQ Pulled Pork Sandwich</h2>
-                <p>Slow-cooked pork, BBQ sauce, coleslaw.</p>
-            </article>
-            <!-- Existing menu items can be wrapped in <article> tags similarly -->
+        </section>
+        
+
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p>At QuesaDelight, we're passionate about bringing you the best gourmet quesadillas. Our recipes blend traditional techniques with modern flavors, creating a unique dining experience.</p>
+        </section>
+
+        <section id="testimonials">
+            <h2>What Our Customers Say</h2>
+            <blockquote>"The best quesadillas in town! Fresh ingredients and amazing flavors." - Jane Doe</blockquote>
+            <blockquote>"A must-visit for anyone who loves Mexican cuisine." - John Smith</blockquote>
+        </section>
+
+        <section id="contact-info">
+            <h2>Contact Us</h2>
+            <p>Visit us at our downtown location or call us at 555-1234 for reservations.</p>
         </section>
     </main>
-    <footer>
-        <p id="copyright">
-            Copyright © StaticSiteExample
-        </p>
-    </footer>
 </body>
 </html>
